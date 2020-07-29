@@ -1,0 +1,33 @@
+- name: Linear
+  kwargs:
+    in_features: 5000
+    out_features: 2500
+
+- name: BatchNorm1d
+  kwargs:
+    num_features: 2500
+
+- name: Linear
+  kwargs:
+    in_features: 2500
+    out_features: 512
+
+
+- name: BatchNorm1d
+  kwargs:
+    num_features: 512
+
+- name: Linear
+  kwargs:
+    in_features: 512
+    out_features: 512 
+
+- name: ReLU
+- name: Linear
+  kwargs:
+    in_features: 512
+    out_features: 3993
+
+- name: Softmax
+  kwargs:
+    dim: 0

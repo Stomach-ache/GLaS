@@ -1,0 +1,9 @@
+- name: Linear
+  kwargs:
+    in_features: 3993
+    out_features: 500
+    #out_features: 150
+
+
+
+

@@ -1,0 +1,10 @@
+- name: Linear
+  kwargs:
+    in_features: 1024
+    out_features: 1024 
+
+    #- name: BatchNorm1d
+    #  kwargs:
+    #    num_features: 1024
+
+- name: ReLU

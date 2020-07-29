@@ -1,0 +1,12 @@
+- name: Linear
+  kwargs:
+    in_features: 500
+    out_features: 2500
+    #in_features: 150
+
+
+- name: Linear
+  kwargs:
+    in_features: 2500
+    out_features: 5000
+

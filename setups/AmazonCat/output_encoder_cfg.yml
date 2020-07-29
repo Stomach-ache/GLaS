@@ -1,0 +1,5 @@
+- name: Linear
+  kwargs:
+    in_features: 13330
+    out_features: 1024
+

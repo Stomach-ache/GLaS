@@ -1,0 +1,8 @@
+- name: Linear
+  kwargs:
+    in_features: 1024
+    out_features: 3993
+
+- name: Softmax
+  kwargs:
+    dim: 0
